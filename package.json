@@ -18,8 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run buid",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/skyemperor611/movie_app_2022.git"
   },
   "eslintConfig": {
     "extends": [
